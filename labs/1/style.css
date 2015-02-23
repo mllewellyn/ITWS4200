@@ -1,0 +1,35 @@
+body {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tweet-template, .hashtag-template {
+	display: none;
+}
+#tweets {
+	border-width: 1px;
+	border-color: #000;
+	border-style: solid;
+}
+.tweet {
+	background-color: rgb(236, 250, 255);
+	margin: 3px;
+}
+#hashtags {
+	border-width: 1px;
+	border-color: #000;
+	border-style: solid;
+	
+}
+.hashtag {
+	background-color: rgb(182, 237, 255);
+	margin: 3px;
+}
+/* Using code from Aaron Bennett found on
+http://stackoverflow.com/questions/1638223/is-there-a-way-to-word-wrap-long-words-in-a-div*/
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
