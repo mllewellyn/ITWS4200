@@ -1,0 +1,13 @@
+Maxwell Llewellyn
+Lab 7 - node.js, mongoDB and tweets
+
+In this lab I used existing front end javascript to call AJAX functions on the
+server that dealt with the database and returned the same things as the ones for
+other labs. For example the function that reads in tweets to the database
+returns a JSON of tweets just like the function from an earlier lab that reads
+in tweets and displays them. Every time new tweets are read into the database
+the old ones are cleared out. This is because the JSON dump of the database
+dumps the entire database and I wanted to keep it small. While working on this
+lab I found the less strict nature of mongodb pleasing to work with compared to
+MySQL because dumping arbitrary JSON objects (such as tweets) didn't require me
+to build models and tables first.

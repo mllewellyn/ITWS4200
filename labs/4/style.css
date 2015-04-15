@@ -1,7 +1,18 @@
-body {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+/* Small screen */
+@media all and (max-width: 710px) {
+	.my-breakpoint .ui-block-a {
+		float:none; 
+	}
+	.my-breakpoint .ui-block-b {
+	}
+	#tweets {
+		width: 450px;
+	}
+}
+/* Big screen */
+@media all and (min-width: 710px) {
+.my-breakpoint.ui-grid-b .ui-block-a { width: 49.95%; }
+.my-breakpoint.ui-grid-b .ui-block-b { width: 24.925%; }
 }
 .tweet-template, .hashtag-template {
 	display: none;
@@ -19,6 +30,7 @@ body {
 	border-width: 1px;
 	border-color: #000;
 	border-style: solid;
+	width: 250px;
 	
 }
 .hashtag {
